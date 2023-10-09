@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(23, 95, 230);
+}
+
+button{
+    margin: auto;
+    display: block;
+}
+
+a:hover{
+    background-color: rgb(5, 5, 245);
+}

@@ -20,7 +20,7 @@ main{
 #telefone{
     height: 628px;
     width: 310px;
-    background: url('../imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png')no-repeat;
     border-radius: 55px;
     box-shadow: 4px 6px 15px #000;
 
@@ -36,4 +36,23 @@ main{
     left: 22px;
     height: 470px;
     width: 267px;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 5px #000000b4;  
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.658);
+    box-shadow: 2px 3px 20px #000;
+    transform: translate(-5px, -5px);
+    transition:0.5s;
 }
