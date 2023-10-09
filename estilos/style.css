@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background:url('../imagens/fundo-madeira.jpg') no-repeat center right ;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+#telefone{
+    height: 628px;
+    width: 310px;
+    background: url('../imagens/frame-iphone.png');
+    border-radius: 55px;
+    box-shadow: 4px 6px 15px #000;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
